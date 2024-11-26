@@ -8824,7 +8824,9 @@ h1, h2, h3, h4, h5,
 .services-1 {
   margin-bottom: 40px;
   padding: 2em;
-  background: rgb(51 160 194 / 39%);
+  background: linear-gradient(135deg, rgba(245, 81, 95, 0.8), rgba(117, 88, 242, 0.8), rgba(51, 160, 194, 0.8));
+
+;
   width: 100%;
   -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
@@ -8867,7 +8869,8 @@ h1, h2, h3, h4, h5,
     margin-bottom: 10px;
     color: #ffbd39; }
   .services-1:hover {
-    background: linear-gradient(45deg, #08aeea 0, #2af598 100%); }
+  background: linear-gradient(135deg, rgba(255, 183, 77, 0.8), rgba(150, 100, 240, 0.8), rgba(70, 200, 220, 0.8));
+  }
     .services-1:hover .icon i {
       color: #fff; }
     .services-1:hover h3 {
@@ -8891,7 +8894,8 @@ h1, h2, h3, h4, h5,
   overflow: visible; }
 
 .progress-bar {
-  background: linear-gradient(45deg, #08aeea 0, #2af598 100%);
+  background:linear-gradient(135deg, rgba(245, 81, 95, 0.8), rgba(117, 88, 242, 0.8), rgba(51, 160, 194, 0.8));
+  ;
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 12px;
