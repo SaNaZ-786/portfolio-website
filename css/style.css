@@ -8869,7 +8869,7 @@ h1, h2, h3, h4, h5,
     margin-bottom: 10px;
     color: #ffbd39; }
   .services-1:hover {
-  background: linear-gradient(135deg, rgba(255, 183, 77, 0.8), rgba(150, 100, 240, 0.8), rgba(70, 200, 220, 0.8));
+    background: linear-gradient(135deg, rgba(255, 183, 77, 0.8), rgba(150, 100, 240, 0.8), rgba(70, 200, 220, 0.8));
   }
     .services-1:hover .icon i {
       color: #fff; }
@@ -9740,6 +9740,17 @@ textarea.form-control {
 .textColor{
   color: black !important;
 }
+
+.textColor1 {
+  color: black !important;
+}
+
+@media (max-width:468px) {
+  .textColor1 {
+    color: white !important;
+  }
+}
+
 
 #typing-animation{
   color:purple !important;
